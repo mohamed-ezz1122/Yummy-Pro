@@ -1,0 +1,10 @@
+.inner:hover .inner_layer
+{
+    top: 0;
+}
+.inner_layer
+{
+    top: 110%;
+    bottom: -20px;
+    transition: top .6s;
+}

@@ -1,0 +1,16 @@
+.card
+{
+    overflow: hidden;
+
+}
+.card_layer
+{
+    top: 110%;
+    left: 0;
+    bottom: -30px;
+    transition: all 0.3s;
+}
+.card:hover .card_layer
+{
+top: 0;
+}
